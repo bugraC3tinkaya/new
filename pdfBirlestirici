@@ -1,0 +1,15 @@
+from tkinter import *
+
+def birlestir():
+  pass
+
+tk=Tk()
+tk.title("Pdf birleştirici")
+tk.geometry("1000x250")
+Label(tk,text="pdf Ekle",font="Verdana 12",bg="red",fg="white").pack()
+entry=Entry(tk,width="75")
+entry.pack()
+b1=Button (tk,text="pdf birleştir",font="Verdana 12 bold",padx="75",pady="10",bg="red",fg="white",cursor="hand2",activeforeground="green",activebackground="black",command=birlestir)
+b1.pack()
+
+tk.mainloop()
